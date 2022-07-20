@@ -21,6 +21,7 @@ let append = (data) => {
     data.forEach((elem) => {
         let name = document.createElement("a");
         name.innerText = elem.name;
+        name.setAttribute("href","display.html")
         let image = document.createElement("img");
         image.src = elem.image;
         let price = document.createElement("h2");

@@ -19,7 +19,7 @@
 }
 
 #home{
-    width: 90%;
+    width: 86%;
     height: 20px;
     display: flex;
     margin: auto;
@@ -27,7 +27,7 @@
     justify-content: space-between;
 }
 #home>div{
-    width: 9.7%;
+    width: 10.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,7 @@
 }
 
 #container{
-    width: 90%;
+    width: 86%;
     margin: auto;
     margin-top: 40px;
     display: grid;
@@ -62,8 +62,13 @@
 }
 
 .fruits{
-    height: 420px;
-    margin-bottom: 50px;
+    height: 410px;
+    margin-bottom: 60px;
+}
+.fruits>.imgdiv:hover{
+    width: 108%;
+    margin-left: -12px;
+    margin-top: -12px;
 }
 .imgdiv{
     width: 100%;
@@ -74,30 +79,38 @@
     border-radius: 30px;
 }
 .namediv{
-    width: 92%;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
     height: 170px;
     text-align: center;
 }
+.namediv>a{
+    text-decoration: none;
+    color: #252222;
+    font-size: 21px;
+}
+.namediv>h2{
+    color: #CD171F;
+}
 
 .add{
     display: flex;
+    display: none;
     width: 100%;
     border: 0px;
     border-radius: 0px 0px 30px 30px;
     height: 50px;
-    margin-top: -56px;
+    margin-top: -50px;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
     padding: 0px 50px;
     background-color: #437111;
     position: relative;
-    z-index: -1;
 }
-.add:hover{
-    z-index: 1;
+.fruits:hover>.imgdiv>.add{
+    display: flex;
 }
 .add>img{
     width: 30px;
