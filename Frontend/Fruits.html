@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits</title>
+</head>
+
+<body>
+    <div>
+        <span><i class="fab fa instagram"></i></span>
+    </div>
+    <div id="Fruit">
+        <h1>Add Fruits</h1>
+        <input type="number" placeholder="id" id="id"><br>
+        <input type="text" placeholder="imageURL" id="url"><br>
+        <input type="text" placeholder="Name" id="name"><br>
+        <input type="text" placeholder="price" id="Rs"><br>
+        <input type="text" placeholder="weigth" id="wt"><br>
+        <!-- <input type="text" placeholder="description" id="des"><br> -->
+        <input type="text" placeholder="Country" id="con"><br>
+        <!-- <input type="text" placeholder="Promise" id="promise"><br> -->
+        <!-- <input type="text" placeholder="promise description" id="prdes"><br> -->
+        <button onclick="AddFruits()">Submit</button>
+    </div>
+</body>
+
+<script>
+
+    let Fruits = document.querySelector("#Fruit");
+
+    let AddFruits = async () => {
+        let fruitData = {
+            id: +document.querySelector("#id").value,
+            image: document.querySelector("#url").value,
+            name: document.querySelector("#name").value,
+            price: +document.querySelector("#Rs").value,
+            weigth: document.querySelector("#wt").value,
+            description: "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+            origin: document.querySelector("#con").value,
+            promise: "KIMAYE PROMISE",
+            PromiseDescription: "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+        };
+
+        let FruitData = JSON.stringify(fruitData);
+
+        let URL = "http://127.0.0.1:3500/api/Fruit" 
+
+        let response = await fetch(URL, {
+            method: "POST",
+            body: FruitData,
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+
+        console.log(response);
+
+    }
+
+</script>
