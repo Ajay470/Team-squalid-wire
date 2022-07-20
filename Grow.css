@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-repeat: no-repeat;
+  
+    
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+   
+    height: 100%;
+    
+    
+}
+#banner{
+    width: 100%;
+}
+#banner>img{
+    width: 100%;
+}
+#bread{
+    height: 110px;
+    width: 100%;
+    margin-top: -15px;
+    background-color: #437111;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom:20px;
+    padding-top: 5px;
+    align-items: center;
+}
+#bread>div{
+    margin: auto;
+    margin-top: 7px;
+    height: 33%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+}
+#bread a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    text-rendering: optimizeSpeed;
+}
+#home_icon{
+    height: 40%;
+    margin-right: 10px;
+    background-color: transparent;
+}
+#others{
+display: flex;
+width: 100%;
+}
+#search_related{
+ width: 30%;
+ height: 1000px;
+ border: 1px solid green;
+}
+#info{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 50px 20px 150px;
+}
+#info>div{
+    width: 400px;
+    height: 500px;
+    
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+#info>div>img{
+    width: 400px;
+    border-radius: 20px;
+}
+#info>div>img:hover{
+    width: 410px;
+}
+#info>div>h1{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+#info>div>p{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+#info>div>div:first-child{
+    background-color:white;
+    width: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+#info>div>h1:hover{
+    color:#98cb4c;
+}
+#info>div>div:last-child{
+     margin-top: 60px;
+    display: flex;
+    width:100%;
+    height: 50px;
+    background-color: transparent;
+    box-shadow: none;
+}
+#info>div>div>.mail{
+    width: 30px;
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+#info>div>div>.mail:hover{
+    border-radius: 50px;
+    background-color: beige;
+}
