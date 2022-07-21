@@ -5,7 +5,7 @@ let importData = async () => {
     let countDiv = document.querySelector("#count")
     let container = document.querySelector("#container");
     let count = 0;
-    let url = "http://127.0.0.1:3500/api/Fruit";
+    let url = "http://127.0.0.1:3500/api/Fresh";
 
     let data = await getData(url);
     console.log(data);
