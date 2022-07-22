@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+    #home{
+        width: 86%;
+        height: 20px;
+        display: flex;
+        margin: auto;
+        margin-top: 100px;
+        justify-content: space-between;
+    }
+    #home>div{
+        /* width: 10.5%; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #home>div>a{
+        width: 60px;
+        height: 16px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        font-weight: bold;
+    }
+    #home>div>a>img{
+        width: 14px;
+        height: 14px;
+    }
+    #home>div>p{
+        margin-left: 8px;
+    }
+    #home>div>p+p{
+        color: gray;
+        margin-left: 8px;
+    }
+    #dleft{
+        width: 20px;
+        /* height: 20px; */
+    }
+    #home>div>div:first-child{
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        margin-top: 6px;
+    }
+    .arrow{
+        width: 30px;
+    }
+    #main{
+        width: 86%;
+        margin: auto;
+        margin-top: 70px;
+        display: flex;
+        /* border: 1px solid green; */
+    }
+    #imagePart{
+        width: 40%;
+        margin-right: 40px;
+    }
+    #imagePart>div:first-child{
+        width: 100%;
+    }
+    #imagePart>div:first-child>img{
+        width: 100%;
+    }
+    #change{
+        width: 100%;
+        display: flex;
+    }
+    #change>div{
+        width: 24%;
+        margin-left: 5px;
+        
+    }
+    #change>div>img{
+        width: 100%;
+    }
+    #disPart{
+        width: 55%;
+    }
+    #disPart>h1{
+        font-size: 46px;
+        margin-top: 0px;
+    }
+    #disPart>p{
+        font-size: 22.5px;
+        color: #222222;
+    }
+    #disPart>#rs{
+        font-size: 35px;
+        color: #98CB4C;
+    }
+    #pack{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #pack>div{
+        width: 20%;
+        border-radius: 50%;
+    }
+    #pack>div>img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    #rs2{
+        font-size: 60px;
+        color: #CD171F;
+    }
+    #add{
+        display: flex;
+        align-items: center;
+        margin-top: -50px;
+    }
+    #add>button{
+        display: block;
+        height: 40px;
+        border: 0px;
+    }
+    #add>button+button{
+        display: block;
+        margin-left: 30px;
+        border: 0px;
+        border-radius: 23px;
+        height: 46px;
+        width: 120px;
+        font-size: 16px;
+        align-items: center;
+    }
+    #add>p{
+        border: 1px solid gray;
+        font-size: 20px;
+        padding: 7px 15px;
+    }
+
+
+    #storage>h4{
+        font-size: 20px;
+        font-style: italic;
+        columns: #1b1919;
+    }
+    #storage>p{
+        font-size: 16.5px;
+        margin: 0px;
+        color: #4C4C4C;
+    }
+
+    #promise{
+        width: 86%;
+        display: flex;
+        margin: auto;
+        margin-top: 250px;
+    }
+    #promise>div:first-child{
+        width: 52%;
+    }
+    #promise>div:first-child>h1{
+        margin-top: 180px;
+        font-size: 50px;
+    }
+    #promise>div:first-child>p{
+        font-size: 24px;
+    }
+    #promise>div:last-child{
+        width: 45%;
+        border-radius: 40px;
+        
+    }
+    #promise>div:last-child>img{
+        width: 100%;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    </style>
+
+</head>  
+
+<body>
+    <div id="home">
+        <div>
+            <div>
+                <a href=""><img id="dleft" src="https://img.icons8.com/fluency-systems-regular/344/down-left.png" alt=""></a>
+            </div>
+            <a href="">
+                <img src="https://img.icons8.com/glyph-neue/2x/home.png" alt="">
+                <p>Home</p>
+            </a>
+            <p>/ All fruits</p>
+            <p>/ Kimaye Chausa Mangoes (Pack of 1kg, 2kg & 4kg)</p>
+        </div>
+        <div>
+            <div>
+                <a href="">
+                    <img class="arrow" src="https://img.icons8.com/ios-glyphs/344/arrow-pointing-left--v2.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img class="arrow" src="https://img.icons8.com/ios-glyphs/344/long-arrow-right.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="imagePart">
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover.progressive.jpg?v=1624445187" alt="">
+            </div>
+            <div id="change">
+                <div><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover.progressive.jpg?v=1624445187" alt=""></div>
+                <div><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover.progressive.jpg?v=1624445187" alt=""></div>
+                <div><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover.progressive.jpg?v=1624445187" alt=""></div>
+            </div>
+        </div>
+       
+        <div id="disPart">
+            <h1>Kimaye Langra Mangoes (Pack of 1,2 and 4 kg)</h1>
+            <p>One of the popular varieties of mango is Banarasi Langra and they are prominently grown in Varanasi, Uttar Pradesh.This variety is known as langra as it was first grown in the farms of a lame man. It is oval in shape and usually green in colour,even after its fully ripe.</p>
+            <p>Origin : India</p>
+            <p>Weight : 1kg, 2kg & 4kg</p>
+            <p id="rs">₹195 - ₹795</p>
+            <div id="pack">
+                <div><h3>Packs</h3></div>
+                <div><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover.progressive.jpg?v=1624445187" alt=""></div>
+                <div><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover.progressive.jpg?v=1624445187" alt=""></div>
+                <div><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover.progressive.jpg?v=1624445187" alt=""></div>
+            </div>
+            <div>
+                <p id="rs2">₹ 195</p>
+                <div id="add">
+                    <button>-</button>
+                    <p>1</p>
+                    <button>+</button>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div id="storage">
+                <h4>Storage Instructions:</h4>
+                <p>-Store mangoes in the box until they are ripe.</p>
+                <p>-For ripeness level, please refer to ripening stages image.</p>
+                <p>-For best experience, consume the fruit when fully ripe and has a familiar fruity mango aroma.</p>
+                <p>-Consume fully ripe mangoes within 2 days.</p>
+                <h4>Return Instructions:</h4>
+                <p>-Email/ WhatsApp us on hello@kimaye.com / +91-8291273262. </p>
+                <p>-Share pictures of the bad mangoes.</p>
+                <p>-We will take back the bad ones & you can choose to get replacement or refund in your Kimaye wallet or account.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="promise">
+        <div>
+            <h1>KIMAYE PROMISE</h1>
+            <p>Bringing you Langra mangoes straight from the farms of Varanasi. Each mango is organically ripened, traceable to it's farmer and source.</p>
+        </div>
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Langra-promise.png?v=1624440138%22" alt="">
+        </div>
+
+    </div>
+    <div id="fun">
+        <div>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h1></h1>
+            <p></p>
+        </div>
+    </div>
+    
+</body>

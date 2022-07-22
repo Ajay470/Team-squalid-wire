@@ -614,6 +614,20 @@
       "promise": "KIMAYE PROMISE",
       "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
     }
+  ],
+
+  "Graps": [
+    {
+      "id": 55,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/bd07b8e7-3643-4a98-996e-c85fd7d133a8.png?v=1614765886",
+      "name": "Red Globe Imported (400g)",
+      "price": 245,
+      "weigth": "400g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    }
   ]
 
 }
