@@ -149,7 +149,7 @@
         }
 
 
-
+         /* slider ends */
 
 
 
@@ -308,8 +308,62 @@
         /* #jazzs:hover{
             
         } */
-       
+        #fourgrid{
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 0px;
+            padding: 20px;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .grid{
+            width: 90%;
+            height: 300px;
+            gap:5px;
+            border-radius: 15px;
+        }
+        .grid:hover{
+            cursor: pointer;
+
+        }
+        .logo{
+            width:100%;
+            display:flex;
+            margin-bottom: -100px;
+        }
+        #div2{
+            display:none;
+            width: 40px;
+            height: 20px;
+            margin-top: -200px;
+            margin-left: 120px;
+        } 
+        /* #app:hover>#div2{
+            display: flex;
+            
+            
+          
+        } */
+        ::selection{
+            color:#CD171F;
+            background-color: #98CB4C;
+        }
+        
+
     </style>
+    <!-- body{
+    
+        width: 100%;
+        background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-repeat: repeat-y;
+        height: 100%; 
+    }
+     -->
 
 </head>
 
@@ -400,9 +454,9 @@
         <!-- <div id="leftarrow"><</div>
         <div id="rightarrow">></div> -->
     </div>
-    <!-- <h3 class="mid">PSST… LOOKIN’ FOR US?</h3>
+    <h3 class="mid">PSST… LOOKIN’ FOR US?</h3>
     <p class="mided">We are here</p>
-    <div id="fourgrid"></div> -->
+    <div id="fourgrid"></div>
 
 </body>
 
@@ -472,7 +526,6 @@
         }
     }, 4000)
 
-
     let id = 1;
     let i = 1
     let images = ["./img/01.png", "./img/02.PNG", "./img/03.png", "./img/04.png", "./img/05.png"]
@@ -504,7 +557,28 @@
         x++
     }, 2000);
 
-
+    let insta = [{url:"https://scontent.cdninstagram.com/v/t51.2885-15/294545929_764702898290596_4922276163820987111_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=LCG8C87Xnc4AX9QktP0&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9ChZSpQ95vbjMfcWf2grtjZxiIAhhwT0WFgOUc9EXQAw&oe=62DE8094"},
+    {url:"https://scontent.cdninstagram.com/v/t51.29350-15/294054995_561718019076607_8730954817962913303_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=Y7agx3LiyHAAX_rCmq1&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8ikpV0yYqjo2wSgrq8Lwf5OVjg_mjg0fHLAtQ4fwZN5Q&oe=62DE7247"},
+    {url:"https://scontent.cdninstagram.com/v/t51.29350-15/294361576_746289910024859_750855840152039447_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=TKqzPBDvaDgAX8In76f&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8VQ9x3TSsgTjYGBj6mXCmEkeMwuGeEHToFlUg1u68rzw&oe=62DEE676"},
+    {url:"https://scontent.cdninstagram.com/v/t51.29350-15/294354624_584747949713690_7081314398644281486_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=B_YPORzbr1QAX-iBpw2&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_BsUZEW_Z4WRSlVKDvLEo6S1R6LzMyaLskC8SToWUxDA&oe=62DEC5CC"}
+]
+insta.forEach(ele=>{
+    let app = document.createElement("div")
+    app.setAttribute("id","app")
+    let div2=document.createElement("div")
+    div2.setAttribute('id',"div2")
+    
+    let logo=document.createElement("img")
+    logo.src="https://img.icons8.com/windows/2x/instagram-new.png"
+    logo.setAttribute("class","logo")
+    div2.append(logo)
+    let avtar=document.createElement("img")
+    avtar.setAttribute("class","grid")
+    avtar.src=ele.url
+    app.append(avtar,div2)
+    document.querySelector("#fourgrid").append(app)
+})
+    
 
 
 </script>
