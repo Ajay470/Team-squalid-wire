@@ -7,14 +7,9 @@ body{
     width: 100%;
     background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
     background-repeat: no-repeat;
-  
-    
     background-size: 100% auto;
     background-repeat: repeat-y;
-   
-    height: 100%;
-    
-    
+    height: 100%; 
 }
 #banner{
     width: 100%;
@@ -35,6 +30,7 @@ body{
     align-items: center;
     z-index: 1;
 }
+
 #bread>div{
     margin: auto;
     margin-top: 7px;
@@ -43,6 +39,14 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 45%;
+}
+#bread a{
+    text-decoration: none;
+    color: #fff;
+}
+#bread a:visited{
+    text-decoration: none;
+    color: #fff;
 }
 #bread a:hover{
     text-decoration: underline;
@@ -68,7 +72,7 @@ justify-content: center;
  top: 80px;
 }
 #info{
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -76,22 +80,23 @@ justify-content: center;
     padding: 50px 0px 0px 0px;
 }
 #info>div{
-    width: 500px;
+    width: 450px;
     height: 600px;
-    
+    margin-top: 30px;
     padding: 0px 10px 10px 10px;
     text-align: center;
     
 }
 #info>div>img{
-    width: 500px;
+    width: 450px;
     border-radius: 30px;
 }
 #info>div>img:hover{
-    width: 500px;
+    width: 450px;
     
     border-radius: 0px;
     transition: 1.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 #info>div>h1{
     text-overflow:ellipsis;
@@ -138,7 +143,6 @@ justify-content: center;
     border-radius: 0px;
     padding: 10px 10px 10px 10px;
     
-
 }
 #info>div>div>.mail:hover{
     border-radius: 25px;
@@ -179,33 +183,32 @@ justify-content: center;
     display: flex;
     height: 80px;
     margin: 30px 0px 30px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5px;
+}
+.related:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+
 }
 .related>div{
     height: 100%;
     margin-right: 10px;
+    padding: 1px 1px 1px 1px;
+    
 }
 .related>div>img{
     height: 80%;
 }
 
-#display_info>hr{
-    height: 5px;
-    margin-top: 15px;
-    margin-bottom: 50px;
+.related>div>p{
+    margin-top: 1px;
 }
-#display_info{
-    width: 100%;
-    margin: auto;
-    text-align: center;
+
+#read{
+    margin-top: 30px;
+    text-decoration: underline;
+    color: gray;    
 }
-#displayP{
-    text-overflow:ellipsis;
-    overflow:hidden;
-     display: -webkit-box !important;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    white-space: normal;
-}
-#dispaly_info>img{
-    width: 80%;
+#read:hover{
+    color: black;
 }

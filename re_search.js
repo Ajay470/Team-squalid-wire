@@ -1,15 +1,11 @@
-// console.log(data)
-let info = async ()=>{
-    let res = await fetch("https://qzoz-fruits-dummy-api.herokuapp.com/api/article/")
-    let data = await res.json()
-    append(data)
-    related(data)
-    }
+let data = JSON.parse(localStorage.getItem("re_search"))
+console.log(data)
 
-    info()
-
-let append = (data)=>{
+let give = (data)=>{
     console.log(data)
+    if(data.length===0){
+        document.getElementById("info").textContent="NO RESULT!"
+    }
     data.forEach(el => {
         let div = document.createElement("div")
         let img = document.createElement("img")
@@ -53,6 +49,16 @@ let append = (data)=>{
     });
 }
 
+
+give(data)
+
+let relatedData = async ()=>{
+    let res = await fetch("https://qzoz-fruits-dummy-api.herokuapp.com/api/article/")
+    let data = await res.json()
+  
+    related(data)
+    }
+
 let related = (data)=>{
     for(let i=0; i<4; i++){
         console.log(data)
@@ -83,6 +89,8 @@ let related = (data)=>{
     };   
 }
 
+relatedData()
+
 
 
 // *****************************************************************search
@@ -112,7 +120,7 @@ document.getElementById("re_search_btn").addEventListener("click",()=>{
             });
             console.log(arr)
             localStorage.setItem("re_search",JSON.stringify(arr))
-            location.href="./re_search.html"
+            location.reload()
             }   
          
 })

@@ -42,6 +42,8 @@ let related = (data)=>{
 
 let display = ()=>{
     let obj = JSON.parse(localStorage.getItem("display_info"))
+    
+    document.getElementById("display_title").textContent=obj.title
 
     let div = document.createElement("div")
          div.setAttribute("id","display_info")
@@ -50,6 +52,7 @@ let display = ()=>{
          h1.textContent = obj.title;
          
          let p = document.createElement("p")
+         p.setAttribute("id","kimaye")
          p.innerHTML="By <span>Kimaye</span>"
 
          let img = document.createElement("img")
@@ -72,3 +75,35 @@ let display = ()=>{
 
 
 display()
+
+// *****************************************************************search
+
+document.getElementById("re_search_btn").addEventListener("click",()=>{
+
+    let re_search = async ()=>{
+        let res = await fetch("https://qzoz-fruits-dummy-api.herokuapp.com/api/article/")
+        let data = await res.json()
+      
+        search(data)
+        }
+        re_search();
+        let x=document.getElementById("re_search").value.toUpperCase()
+        let search= (data)=>{
+            let arr=[]
+             data.forEach(el => {
+                let q=el.title.toUpperCase()
+                let q2=el.description.toUpperCase()
+                if(q.indexOf(x)!==-1){
+                    arr.push(el)
+                }
+                else if(q2.indexOf(x)!==-1){
+                    arr.push(el)
+                }
+               
+            });
+            console.log(arr)
+            localStorage.setItem("re_search",JSON.stringify(arr))
+            location.href="./re_search.html"
+            }   
+         
+})
