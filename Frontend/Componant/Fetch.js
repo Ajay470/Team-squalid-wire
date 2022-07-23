@@ -6,7 +6,7 @@ let getData = async (url) => {
 }
 
 
-let append = (data,container,count,countDiv,cartArr) => {
+let append = (data,container,count,countDiv,cartArr,displayArr) => {
     
     // let countDiv = document.querySelector("#count");
     let countdata = document.createElement("p");
@@ -37,6 +37,10 @@ let append = (data,container,count,countDiv,cartArr) => {
         imgdiv.append(image,Add);
         imgdiv.setAttribute("class","imgdiv");
 
+        image.addEventListener("click",() => {
+            display(elem);
+        })
+
         let namediv = document.createElement("div");
         namediv.append(name,price);
         namediv.setAttribute("class","namediv");
@@ -55,9 +59,29 @@ let append = (data,container,count,countDiv,cartArr) => {
     countDiv.append(countdata);
 
     let addToCart = (elem) => {
-        cartArr.push(elem);
-        console.log(cartArr);
-        localStorage.setItem("cartData",JSON.stringify(cartArr));
+        let flag = true;
+        for(let i=0; i<cartArr.length; i++){
+            if(elem.id == cartArr[i].id){
+                flag = false;
+            }
+        }
+        if(flag){
+            cartArr.push(elem);
+            console.log(cartArr);
+            localStorage.setItem("cartData",JSON.stringify(cartArr));
+            alert("Item added to cart")
+        }else{
+            alert("This item has already been added")
+        }
+        
+    }
+
+    let display = (elem) => {
+        displayArr = [];
+        displayArr.push(elem);
+        console.log(displayArr);
+        localStorage.setItem("displayData",JSON.stringify(displayArr));
+        window.location.href = "Display.html"
     }
 }
 

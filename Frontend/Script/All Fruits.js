@@ -1,6 +1,7 @@
 import { getData,append } from "../Componant/Fetch.js";
 
 let importData = async () => {
+    let displayArr = [];
     let cartArr = JSON.parse(localStorage.getItem("cartData")) || [];
     let countDiv = document.querySelector("#count")
     let container = document.querySelector("#container");
@@ -9,7 +10,7 @@ let importData = async () => {
 
     let data = await getData(url);
     console.log(data);
-    append(data,container,count,countDiv,cartArr);
+    append(data,container,count,countDiv,cartArr,displayArr);
 }
 
 importData();
