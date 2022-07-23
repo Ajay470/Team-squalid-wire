@@ -212,6 +212,15 @@
 <body>
 
 
+    <div id="fetchnavbar">
+
+
+
+
+        
+    </div>
+
+
     <div id="top_navbar">
         <div id="header"
             style="background-color: green; color: white; font-size: 20px; padding: 5px; text-align: center;">
@@ -303,7 +312,7 @@
                     </div>
 
                     <div class="profile">
-                        <img onclick="login()" style="width: 30px;"
+                        <img id="profile101" onclick="login()" style="width: 30px;"
                             src="https://img.icons8.com/?id=12438&size=2x&color=000000" alt="">
 
                     </div>
@@ -326,21 +335,21 @@
                     <a id="cross-login" style="font-size: 15px; color: #f9f9f9; text-decoration: none;" href="#"
                         class="widget-close">CLOSE -</a>
                 </div>
-                <div class="login-form" id="login-form101" style="">
+                <div class="login-form" id="login-form101" >
                     <!-- <div class="shopify-message resetSuccessside" style="display:none;">We've sent you an email with a link to update your password.</div>
                    <p class="text_content_success resetSuccessside" style="display:none;">A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset.</p>
                    <ul id="gl_shopify_errorside" class="shopify-error" style="display:none;">
                       <li class="html_li" id="jas_html_frmside"></li> -->
 
                     <!-- </ul> -->
-                    <form style="padding:20px; display: flex; flex-direction: column ; gap: 20px;" method="post"
+                    <!-- <form style="padding:20px; display: flex; flex-direction: column ; gap: 20px;" method="post"
                         action="/account/login" id="customer_login_side" accept-charset="UTF-8"
                         class="login shopify-form shopify-form-login"
                         onsubmit="window.Shopify.recaptchaV3.addToken(this, &quot;customer_login&quot;); return false;">
                         <input type="hidden" name="form_type" value="customer_login"><input type="hidden" name="utf8"
-                            value="✓">
+                            value="✓"> -->
 
-
+           <div style="padding:20px; display: flex; flex-direction: column ; gap: 20px;" method="post">   
                         <p style="color: black; width: 92%;">
                             <label style="font-size: 20px; line-height: 20px; padding: 10px 0px; "
                                 for="usernameside">Email address <span style="color: red;"
@@ -364,14 +373,18 @@
                         <p class="form-row">
 
 
+<button onclick="loginfun()" style="font-size:20px; border:2px solid #161616; height: 35px; width: 100%;">Login
+    
+</button>
+                            <!-- <input style="font-size:20px; border:2px solid #161616; height: 35px; width: 100%;"
+                                type="submit" class="Login-button" name="login" value="Login1"> -->
 
-                            <input style="font-size:20px; border:2px solid #161616; height: 35px; width: 100%;"
-                                type="submit" class="Login-button" name="login" value="Login">
 
-
-                </div>
+               
                 </p>
-                </form>
+                </div>
+            </div>
+                <!-- </form> -->
 
 
                 <!-- social -->
@@ -390,15 +403,13 @@
                 <!-- /////////////////////////////////reg//////////////////////////////////////////////////////// -->
                 <div id="register_sid1ediv" id="reg-form101">
                     <!--  -->
-                    <form style="padding:20px; display: flex; flex-direction: column ; gap: 20px;" method="post"
+                    <!-- <form style="padding:20px; display: flex; flex-direction: column ; gap: 20px;" method="post"
                         action="/account" id="register_side" accept-charset="UTF-8"
                         class="login shopify-form shopif-form-login">
                         <input type="hidden" name="form_type" value="create_customer">
-                        <input type="hidden" name="utf8" value="✓">
+                        <input type="hidden" name="utf8" value="✓"> -->
 
-
-
-
+                        <div id="ajay1" style="padding:20px; display: flex; flex-direction: column ; gap: 20px;" >
                         <!-- /////////////////break -->
                         <!-- <div id="reg-boxmain"> -->
                         <p class="reg-box" style="color: black; width: 92%;">
@@ -435,14 +446,17 @@
                         </p>
                         <div class="shopify-password-strength" aria-live="polite"></div>
                         <p></p>
-                        <p class="shopify-FormRow form-ow" style="color: black; margin-top: 50px;">
+                        <button onclick="regfun()" style="font-size:15px;  border:2px solid black; height: 35px; width: 100%;margin-top: 50px;">
+                            Register
+                        </button>
+                        <!-- <p class="shopify-FormRow form-ow" style="color: black; margin-top: 50px;">
                             <input style="font-size:15px;  border:2px solid black; height: 35px; width: 100%;"
                                 type="submit" class="shopify-Button butt" name="register" value="Register">
-                        </p>
+                        </p> -->
                         <!-- </div> -->
                     </form>
 
-
+                </div>
                 </div>
 
                 <!-- /////////////////////////////////reg//////end////////////////////////////////////////////////// -->
@@ -456,19 +470,20 @@
                 <!-- <p class="form-change">
                             <input type="submit" class="shopify-Button button" value="Reset Password">
                             <button type="button" onclick="hideRecoverPasswordFormSide();return false;" class="shopify-Button button">Cancel</button>
-                         </p></form></div>
+                         </p></form></div>yet?</span>
+                    <p style="color: rgb(117, 115, 115);">Welcome to Kimaye! Help us with a few details to know you
+                        better as you take the journey of enjoying our safe and tasty
                 </div> -->
-                <div class="register-question"
-                    style="text-align: center; display: flex; flex-direction: column; gap: 20px  ;">
+                <div class="register-question" style="text-align: center; display: flex; flex-direction: column; gap: 20px  ;">
                     <span class="create-account-text" style="font-weight:120px ;">No account yet?</span>
                     <p style="color: rgb(117, 115, 115);">Welcome to Kimaye! Help us with a few details to know you
                         better as you take the journey of enjoying our safe and tasty fruits.</p>
                     <button id="reg-button101"
-                        style="cursor: pointer;    border: 2px solid black; line-height: 30px; padding: 5px; font-size: 18px;width: 150px; margin: auto; text-decoration: none; color: black; display: ;"
+                        style="cursor: pointer;    border: 2px solid black; line-height: 30px; padding: 5px; font-size: 18px;width: 170px; margin: auto; text-decoration: none; color: black; "
                         class="btn btn-style-link" id="hideFormLogin" onclick="reg();return false;">Create an
                         Account</button>
                     <button id="login-buttom101"
-                        style=" cursor: pointer;    border: 2px solid black; line-height: 30px; padding: 5px; font-size: 18px;width: 150px; margin: auto; text-decoration: none; color: black; display: ;"
+                        style=" cursor: pointer;    border: 2px solid black; line-height: 30px; padding: 5px; font-size: 18px;width: 150px; margin: auto; text-decoration: none; color: black; "
                         class="btn btn-style-link" id="showFormLogin" onclick="log();return false;">Login</button>
                 </div>
 
@@ -483,13 +498,49 @@
 
                     var login1 = document.getElementById("login-form101");
                     // login.style.display="none";
-                    var reg1 = document.getElementById("register_side");
+                    var reg1 = document.getElementById("ajay1");
                     reg1.style.display = "none";
                     var reg_button = document.getElementById("reg-button101");
                     // reg_button.style.display="none";
                     var log_button = document.getElementById("login-buttom101");
                     log_button.style.display = "none";
 
+let data=JSON.parse(localStorage.getItem("project-2userdata")) || [];
+
+                    function regfun(){
+
+                        let obj={
+                         name:document.getElementById("FirstNamereg1").value,
+                       last:document.getElementById("LastNamereg").value,
+                       email:document.getElementById("reg_emailreg").value,
+                       password:document.getElementById("reg_passwordreg").value,
+                        }
+                        data.push(obj);
+                        localStorage.setItem("project-2userdata",JSON.stringify(data));
+                        window.location.href="#";                       
+                    }
+
+
+                    function loginfun(){
+                      let emai=document.getElementById("usernameside").value;
+                       let passwor=document.getElementById("passwordside").value;
+                        let flag=0;
+                       data.forEach(function(el){
+                          if(el.email===emai && el.password===passwor){
+                            flag++;
+                            localStorage.setItem("project-2logindata",JSON.stringify(el));
+                            alert("succ")
+                            window.location.href="#"; 
+                          }
+
+                       })
+                       if(flag===0){
+                        alert("something is wrong")
+                       }
+
+
+                    }
+ 
 
 
 
