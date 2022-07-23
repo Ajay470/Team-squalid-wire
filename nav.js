@@ -108,7 +108,7 @@ function loginfun(){
         flag++;
         localStorage.setItem("project-2logindata",JSON.stringify(el));
         alert("succ")
-        window.location.href="./profile.html"; 
+        window.location.href="./Frontend/profile.html"; 
       }
 
    })

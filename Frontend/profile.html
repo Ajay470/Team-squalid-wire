@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="display_title">Profile</title>
+    <link rel = "icon" href = 
+    "//cdn.shopify.com/s/files/1/0449/5225/6667/files/fav_12dcb22d-f3e3-4662-886b-1dae4e60e297_152x.png?v=1598337573" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="./Grow_style/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./footer.css">
+</head>
+<body>
+  <div id="navbar887575">
+       
+
+  </div>
+
+  <div class="reset23947hdfjue8934"
+  style="height: auto; width: 340px; top: unset; bottom: 10px; right: 10px; left: unset; position: fixed; box-sizing: border-box; display: flex; flex-direction: column-reverse; z-index: 9999999; font-size: 14px;">
+  <div>
+      <style>
+          .reset23947hdfjue8934 * {
+              box-sizing: border-box;
+              pointer-events: unset;
+          }
+      </style>
+  </div>
+  <div id="show-chat"  style="display: flex; flex-direction: column; align-items: center; box-sizing: border-box; margin-bottom: 24px; background-color: white; width: 100%; border: 1px solid rgb(232, 232, 232); box-shadow: rgba(20, 20, 20, 0.04) 0px 4px 8px -4px, rgba(20, 20, 20, 0.02) 0px 8px 16px -4px; border-radius: 8px; overflow: hidden; visibility: unset; ">
+  
+  
+  </div>
+
+  <img id="chatbox_icon"   src="https://cdn.live.zoko.io/store/customers/d9b85c58-d794-4956-a18e-c36f838226bb-zo-ko-Icon.svg"
+  style="position: absolute; bottom: 0px; cursor: pointer; width: 56px; height: 56px; border-radius: 16px; pointer-events: unset; object-fit: cover; box-sizing: border-box; right: 12px; left: unset; box-shadow: rgba(20, 20, 20, 0.08) 0px 16px 32px -6px, rgba(20, 20, 20, 0.04) 0px 60px 120px -4px;">
+ 
+
+          </div>
+  
+  
+ 
+
+
+    <div id="contain">
+       
+        <div id="bread">
+           <div><h1 id="re_search_details">MY ACCOUNT</h1></div>
+           <div><p><img src="https://pic.onlinewebfonts.com/svg/img_8.png" id="home_icon"><a href="../index.html">Home</a> » MY ACCOUNT </p></div>
+           <div><a>NUTRITION</a> <a>LIFESTYLE MANAGEMENT</a> <a>CHILD'S NUTRITION</a> <a>STORAGE & HANDLING</a> </div>
+        </div>
+        <div id="others">
+                <div id="profile_img">
+                    <img src="profile image.png" alt="">
+                </div>  
+                <div id="details">
+                    <h1 id="greet"></h1>
+                    <div>
+
+                        <h2>Name : <span id="pName">please login!</span> </h2>
+                        <h2>Email : <span id="pEmail">please login!</span> </h2>
+                        <h2>Address  : <span id="pAdress"></span> </h2>
+                    </div>
+
+                    <div id="btns">
+                      <button id="difacbtn">Login With Different Account</button>
+                      <button id="logoutbtn">logout</button>
+                    </div>
+                </div>  
+        </div>
+    </div>
+    <footer class="footer" id="footer" >
+
+    </footer>
+</body>
+</html>
+
+
+
+<script>
+ 
+  let data=JSON.parse(localStorage.getItem("project-2logindata"))
+  
+  document.getElementById("display_title").textContent=data.name
+  
+  document.getElementById("greet").textContent=`HELLO! ${data.name.toUpperCase()}`
+
+  document.getElementById("pName").textContent=`${data.name} ${data.last}`
+  document.getElementById("pEmail").textContent=data.email
+  
+
+</script>
+<script src="./navexport.js"></script>
+<script src="./nav.js"></script>

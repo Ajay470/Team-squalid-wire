@@ -14,14 +14,17 @@ let append = (data) => {
     let Wt = x("wt");
     let Rs = x("R");
 
+    
     data.forEach((elem) => {
         let image = y("img");
         image.src = elem.image
         image1.append(image);
-
+        
         let name = y("h1")
         name.innerText = elem.name;
         Name.append(name);
+        
+        document.getElementById("display").textContent=elem.name
 
         let origin = y("p");
         origin = `Origin : ${elem.origin}`
