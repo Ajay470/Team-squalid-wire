@@ -5,8 +5,14 @@
 }
 
 body {
-    background-color: tomato;
-    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    height: 100%;
+    /* background-color: #F0F0EB;
+    height: 100vh; */
 }
 
 .wrapper {
@@ -16,7 +22,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .logo {
