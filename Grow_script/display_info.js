@@ -87,7 +87,9 @@ document.getElementById("re_search_btn").addEventListener("click",()=>{
         search(data)
         }
         re_search();
-        let x=document.getElementById("re_search").value.toUpperCase()
+        let x=document.getElementById("re_search").value
+        localStorage.setItem("re_input",JSON.stringify(x))
+        x=x.toUpperCase()
         let search= (data)=>{
             let arr=[]
              data.forEach(el => {

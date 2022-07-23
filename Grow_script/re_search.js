@@ -1,6 +1,9 @@
 let data = JSON.parse(localStorage.getItem("re_search"))
 console.log(data)
-
+let input = JSON.parse(localStorage.getItem("re_input"));
+document.getElementById("re_search_details").textContent=`"${data.length}" Results For "${input}"`
+document.getElementById("display_title").textContent=`"${data.length}" Results For "${input}"`
+document.getElementById("re_search_det").textContent=`Search Result For "${input}"`
 let give = (data)=>{
     console.log(data)
     if(data.length===0){
@@ -104,7 +107,9 @@ document.getElementById("re_search_btn").addEventListener("click",()=>{
         search(data)
         }
         re_search();
-        let x=document.getElementById("re_search").value.toUpperCase()
+        let x=document.getElementById("re_search").value
+        localStorage.setItem("re_input",JSON.stringify(x))
+        x=x.toUpperCase()
         let search= (data)=>{
             let arr=[]
              data.forEach(el => {
@@ -121,6 +126,6 @@ document.getElementById("re_search_btn").addEventListener("click",()=>{
             console.log(arr)
             localStorage.setItem("re_search",JSON.stringify(arr))
             location.reload()
-            }   
+        }   
          
 })

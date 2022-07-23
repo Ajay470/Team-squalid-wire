@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="display_title">Profile</title>
+    <link rel = "icon" href = 
+    "//cdn.shopify.com/s/files/1/0449/5225/6667/files/fav_12dcb22d-f3e3-4662-886b-1dae4e60e297_152x.png?v=1598337573" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="./Grow_style/profile.css">
+</head>
+<body>
+    <div id="contain">
+       
+        <div id="bread">
+           <div><h1 id="re_search_details">MY ACCOUNT</h1></div>
+           <div><p><img src="https://pic.onlinewebfonts.com/svg/img_8.png" id="home_icon"><a href="index.html">Home</a> » MY ACCOUNT </p></div>
+           <div><a>NUTRITION</a> <a>LIFESTYLE MANAGEMENT</a> <a>CHILD'S NUTRITION</a> <a>STORAGE & HANDLING</a> </div>
+        </div>
+        <div id="others">
+                <div id="profile_img">
+                    <img src="profile image.png" alt="">
+                </div>  
+                <div id="details">
+                    <h1 id="greet"></h1>
+                    <div>
+
+                        <h2>Name : <span id="pName">please login!</span> </h2>
+                        <h2>Email : <span id="pEmail">please login!</span> </h2>
+                        <h2>Adress  : <span id="pAdress"></span> </h2>
+                    </div>
+
+                    <div id="btns">
+                      <button id="difacbtn">Login With Different Account</button>
+                      <button id="logoutbtn">logout</button>
+                    </div>
+                </div>  
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<script>
+  let obj = {
+    name: "sawpnil",
+    last: "yuetekar",
+    email: "mohammadanasquresh@gmail.com",
+    password: 123466458,
+  };
+  localStorage.setItem("Project-2logindata",JSON.stringify(obj))
+  let data=JSON.parse(localStorage.getItem("Project-2logindata"))
+
+  document.getElementById("greet").textContent=`HELLO! ${data.name.toUpperCase()}`
+
+  document.getElementById("pName").textContent=`${data.name} ${data.last}`
+  document.getElementById("pEmail").textContent=data.email
+  
+
+</script>
