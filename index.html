@@ -91,10 +91,15 @@
         .m-btn {
             background-color: grey;
             /* border: 2px solid white; */
-            padding: 5px;
-            border-radius: 10px;
+            /* padding: 6px; */
+            border-radius: 100%;
             cursor: pointer;
             transition: 1s;
+            width:15px;
+            height: 15px;
+            margin-top: -2px;
+            padding: -5px;
+
         }
 
         .m-btn:not(:last-child) {
@@ -184,24 +189,30 @@
 
         #zoom {
             width: 75vh;
-            height: 60vh;
-            overflow: hidden;
+            height: auto;
+            /* overflow: hidden; */
         }
 
         .size {
-            width: 80vh;
+            /* width: 80vh; */
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 25px;
-            transition: transform 3s;
+            
             cursor: pointer;
 
-
+            
         }
+        
+        #zoom:hover {
+            /* transform: scale(1.1); */
+            width: 76vh;
+            transition: 1.5s;
+            border-radius: 0px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            /* height: 70vh; */
 
-        .size:hover {
-            transform: scale(1.1);
         }
 
         .hp {
@@ -343,7 +354,7 @@
 
         }
 
-        .logo {
+        .logos {
             width: 100%;
             display: flex;
             margin-bottom: -100px;
@@ -367,6 +378,10 @@
             color: #CD171F;
             background-color: #98CB4C;
         }
+
+
+
+
     </style>
 </head>
 
@@ -410,11 +425,11 @@ style="position: absolute; bottom: 0px; cursor: pointer; width: 56px; height: 56
                 <input type="radio" name="radio-btn" id="radio4">
 
                 <div class="st first">
-                    <a href=""><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Date-launch-post-whatsapp-banner-desktop.jpg?v=1654259038"
+                    <a href="./Frontend/Fruits.html"><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Date-launch-post-whatsapp-banner-desktop.jpg?v=1654259038"
                         alt=""></a>
                 </div>
                 <div class="st">
-                   <a href=""> <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerArtboard_1.jpg?v=1650952002"
+                   <a href="./Frontend/Fruits.html"> <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerArtboard_1.jpg?v=1650952002"
                     alt=""></a>
                 </div>
                 <div class="st">
@@ -436,11 +451,11 @@ style="position: absolute; bottom: 0px; cursor: pointer; width: 56px; height: 56
                 </div>
             </div>
             <div class="nav-m">
-                <label for="radio1" class="m-btn"></label>
-                <label for="radio2" class="m-btn"></label>
-                <label for="radio3" class="m-btn"></label>
-                <label for="radio4" class="m-btn"></label>
-
+                <label for="radio2" class="m-btn" ></label>
+                <label for="radio3" class="m-btn" ></label>
+                <label for="radio4" class="m-btn" ></label>
+                <label for="radio1" class="m-btn" ></label>
+                
             </div>
         </div>
     </section>
@@ -601,7 +616,7 @@ style="position: absolute; bottom: 0px; cursor: pointer; width: 56px; height: 56
 
         let logo = document.createElement("img")
         logo.src = "https://img.icons8.com/windows/2x/instagram-new.png"
-        logo.setAttribute("class", "logo")
+        logo.setAttribute("class", "logos")
         div2.append(logo)
         let avtar = document.createElement("img")
         avtar.setAttribute("class", "grid")
