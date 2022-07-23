@@ -1,10 +1,32 @@
 
 
 console.log("import");
-import {navbar001,footer8875} from "./navexport.js";
+import {navbar001,footer8875,chatbox} from "./navexport.js";
   
 document.getElementById("navbar887575").innerHTML=navbar001();
 document.getElementById("footer").innerHTML=footer8875();
+document.getElementById("show-chat").innerHTML=chatbox();
+
+
+
+// chatbox
+var countchat =0;
+var show=document.getElementById("show-chat");
+show.style.display="none";
+document.getElementById("chatbox_icon").addEventListener("click",myfun101);
+
+function myfun101(){
+     
+    countchat++;
+    if(countchat%2===1){
+         show.style.display="block"
+    }else{
+        show.style.display="none";
+    }
+   
+    // show.style
+   }
+
 
 
 
