@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <!-- 000000000000000000000000000 -->
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./footer.css">
+    <!-- 00000000000000000000000 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+
+        #body {
+            /* background-color: #F0F0EB; */
+            width: 100%;
+            background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-repeat: repeat-y;
+            height: 100%;
+        }
+
+        .mid {
+            font-family: 'Finger Paint', cursive;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            font-size: xx-large;
+        }
+
+        .mided {
+            font-family: "PT Sans", sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: -10px;
+            font-size: x-large;
+        }
+
+        /* slider starts*/
+        .section {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slider {
+            width: 100%;
+            height: 600px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .slide {
+            width: 100%;
+            height: 600px;
+            ;
+            display: flex;
+        }
+
+        .slide input {
+            display: none;
+        }
+
+        .st {
+            width: 100%;
+
+            transition: 2s;
+        }
+
+        .st img {
+            width: 100vw;
+            height: 600px;
+        }
+
+        .nav-m {
+            position: absolute;
+            width: 100%;
+            margin-top: 10px;
+            justify-content: center;
+            display: flex;
+        }
+
+        .m-btn {
+            background-color: grey;
+            /* border: 2px solid white; */
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        .m-btn:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        .m-btn:hover {
+            background-color: black;
+        }
+
+        #radio1:checked~.first {
+            margin-left: 0;
+        }
+
+        #radio2:checked~.first {
+            margin-left: -100%;
+        }
+
+        #radio3:checked~.first {
+            margin-left: -200%;
+        }
+
+        #radio4:checked~.first {
+            margin-left: -300%;
+        }
+
+        .nav-auto {
+            position: absolute;
+            width: 100%;
+            margin-top: 459px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-auto div {
+            border: 1px;
+            padding: 6px;
+            border-radius: 6px;
+            transform: 1s;
+            margin-top: 150px;
+        }
+
+        .nav-auto div:not(:last-child) {
+            margin-right: 28px;
+            justify-content: center;
+            margin-top: 150px;
+        }
+
+        #radio1:checked~.nav-auto .a-b1 {
+            background-color: black;
+        }
+
+        #radio2:checked~.nav-auto .a-b2 {
+            background-color: black;
+        }
+
+        #radio3:checked~.nav-auto .a-b3 {
+            background-color: black;
+        }
+
+        #radio4:checked~.nav-auto .a-b4 {
+            background-color: black;
+        }
+
+
+        /* slider ends */
+
+
+
+
+
+
+
+
+
+
+
+        #kimayerecommends {
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px 40px;
+            margin: auto;
+
+
+        }
+
+        #zoom {
+            width: 75vh;
+            height: 60vh;
+            overflow: hidden;
+        }
+
+        .size {
+            width: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            transition: transform 3s;
+            cursor: pointer;
+
+
+        }
+
+        .size:hover {
+            transform: scale(1.1);
+        }
+
+        .hp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            margin-top: 15px;
+
+        }
+
+        #but1 {
+            background-color: #CD171F;
+            color: white;
+            padding: 10px 30px 10px 30px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        #kimahi {
+
+            display: grid;
+            align-items: center;
+            gap: 10ox;
+            background-color: #71944C;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px 15px;
+            margin-top: 30px;
+        }
+
+        #kimahi>div>img {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            padding: 10px;
+
+        }
+
+        #kimahi>div>h3 {
+
+            width: 90%;
+            color: white;
+            font-family: 'Finger Paint', cursive;
+            padding: 5px;
+            font-size: larger;
+        }
+
+        #kimahi>div>p {
+            width: 90%;
+            color: white;
+            font-family: "PT Sans", sans-serif;
+            padding: 5px;
+            font-size: larger;
+        }
+
+        #but2 {
+            background-color: white;
+            color: black;
+            padding: 15px 30px 15px 30px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        #but2:hover {
+            background-color: #3E3E3E;
+            color: white;
+        }
+
+        #dir {
+            display: flex;
+            align-items: center;
+
+        }
+
+        #numbers>div {
+            margin: 15px 0px 0px 30px;
+
+
+        }
+
+        .red {
+            color: red;
+        }
+
+        #photos {
+            /* width: 100%; */
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #marg {
+            margin-top: 20px;
+            padding: 20px;
+            font-size: xx-large;
+        }
+
+        #jazz {
+            background-color: #EDCE66;
+        }
+
+        #jazzs {
+            width: 100%;
+            display: flex;
+            padding: 10px;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        /* #jazzs:hover{
+            
+        } */
+        #fourgrid {
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0px;
+            padding: 20px;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .grid {
+            width: 90%;
+            height: 300px;
+            gap: 5px;
+            border-radius: 15px;
+        }
+
+        .grid:hover {
+            cursor: pointer;
+
+        }
+
+        .logo {
+            width: 100%;
+            display: flex;
+            margin-bottom: -100px;
+        }
+
+        #div2 {
+            display: none;
+            width: 40px;
+            height: 20px;
+            margin-top: -200px;
+            margin-left: 120px;
+        }
+
+        /* #app:hover>#div2{
+            display: flex;
+            
+            
+          
+        } */
+        ::selection {
+            color: #CD171F;
+            background-color: #98CB4C;
+        }
+    </style>
+</head>
+
+<body id="body">
+
+    <div id="navbar887575">
+       
+
+    </div>
+    <div class="reset23947hdfjue8934"
+    style="height: auto; width: 340px; top: unset; bottom: 10px; right: 10px; left: unset; position: fixed; box-sizing: border-box; display: flex; flex-direction: column-reverse; z-index: 9999999; font-size: 14px;">
+    <div>
+    <style>
+        .reset23947hdfjue8934 * {
+            box-sizing: border-box;
+            pointer-events: unset;
+        }
+    </style>
+</div>
+<div id="show-chat"  style="display: flex; flex-direction: column; align-items: center; box-sizing: border-box; margin-bottom: 24px; background-color: white; width: 100%; border: 1px solid rgb(232, 232, 232); box-shadow: rgba(20, 20, 20, 0.04) 0px 4px 8px -4px, rgba(20, 20, 20, 0.02) 0px 8px 16px -4px; border-radius: 8px; overflow: hidden; visibility: unset; ">
+
+
+</div>
+
+<img id="chatbox_icon"   src="https://cdn.live.zoko.io/store/customers/d9b85c58-d794-4956-a18e-c36f838226bb-zo-ko-Icon.svg"
+style="position: absolute; bottom: 0px; cursor: pointer; width: 56px; height: 56px; border-radius: 16px; pointer-events: unset; object-fit: cover; box-sizing: border-box; right: 12px; left: unset; box-shadow: rgba(20, 20, 20, 0.08) 0px 16px 32px -6px, rgba(20, 20, 20, 0.04) 0px 60px 120px -4px;">
+
+
+        </div>
+
+
+
+
+
+    <section class="section">
+        <div class="slider">
+            <div class="slide">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="st first">
+                    <a href=""><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Date-launch-post-whatsapp-banner-desktop.jpg?v=1654259038"
+                        alt=""></a>
+                </div>
+                <div class="st">
+                   <a href=""> <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerArtboard_1.jpg?v=1650952002"
+                    alt=""></a>
+                </div>
+                <div class="st">
+                    <a href=""><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerWe_serve_you_1.jpg?v=1650952015"
+                        alt=""></a>
+                </div>
+                <div class="st">
+                   <a href=""> <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerAssured_safety_1.jpg?v=1650952014"
+                    alt=""></a>
+                </div>
+
+                <div class="nav-auto">
+                    <div class="a-b1"></div>
+                    <div class="a-b2"></div>
+                    <div class="a-b3"></div>
+                    <div class="a-b4"></div>
+
+
+                </div>
+            </div>
+            <div class="nav-m">
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio2" class="m-btn"></label>
+                <label for="radio3" class="m-btn"></label>
+                <label for="radio4" class="m-btn"></label>
+
+            </div>
+        </div>
+    </section>
+
+    <h4 class="mid">KIMAYE RECOMMENDS</h4>
+    <p class="mided">A Handpicked and Curated Fruit offering</p>
+    <div id="kimayerecommends"></div>
+    <div id="kimahi">
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kimahi_570x_2db87855-9260-47c2-a80e-3759af77dbea_570x.png?v=1622009438"
+                alt="kimah">
+        </div>
+        <div>
+            <h3>WE’D LIKE TO SAY <span class="red">KIMA</span>HI…</h3>
+            <p>Many of us share common safety concerns about the food we eat.</p>
+            <p>
+                When it comes to fruits, these concerns are even more serious in terms of the way they are grown and
+                handled throughout their farm-to-home journey. We make eating fruits a worry-free and enjoyable
+                experience for you.</p>
+            <p>Since 2009, we have set the benchmark for fruit safety and quality in 35 countries. Kimaye is now
+                expanding its footprint in India, bringing you multiple varieties of fruit that are grown, packaged, and
+                delivered in the safest and most socially responsible manner.</p>
+            <p id="safe">Kimaye is #all<span class="red">Safe</span>#all<span class="red">Good</span></p>
+            <button id="but2">KNOW MORE</button>
+        </div>
+    </div>
+    <h3 class="mid">THE SECRET’S OUT: WE’RE SUPER SAFE</h3>
+    <p class="mided">Witness Our Journey</p>
+    <div id="dir">
+       
+        <div id="photos">
+
+        </div>
+    </div>
+    <div id="jazz">
+        <h4 id="marg" class="mid">JAZZ IT UP WITH FRUITS</h4>
+        <div id="jazzs"></div>
+    </div>
+    <h3 class="mid">PSST… LOOKIN’ FOR US?</h3>
+    <p class="mided">We are here</p>
+    <div id="fourgrid"></div>
+
+    <!-- 000000 -->
+    <footer class="footer" id="footer" >
+
+    </footer>
+
+</body>
+
+</html>
+<script src="./nav.js" type="module"></script>
+<script>
+    let kimaye = [
+        {
+            img: "https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-1-min_570x.png?v=1614338437",
+            title: "ALL FRUITS",
+            details: "Pick and choose from a wide range of delicious fruits"
+        },
+        {
+            img: "https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-3-min_570x.png?v=1614338730",
+            title: "FRESH CUTS",
+            details: "We want to spoon-feed you… quite literally"
+        },
+        {
+            img: "https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-2-min_570x.jpg?v=1614339080",
+            title: "FRUIT COMBOS",
+            details: "Indulge in fruit combinations created by us"
+        },
+        {
+            img: "https://cdn.shopify.com/s/files/1/0449/5225/6667/files/2I8A6078_570x.jpg?v=1631516874",
+            title: "GIFTS BY KIMAYE",
+            details: "Healthy & memorable gifts for your loved ones"
+        },
+    ]
+
+    kimaye.forEach(ele => {
+        let div = document.createElement("div");
+        let image = document.createElement("img")
+        image.setAttribute("id", "zoom")
+        image.setAttribute("class", "size")
+        image.src = ele.img
+        let name = document.createElement("h3")
+        name.setAttribute("class", "hp")
+        name.innerText = ele.title
+        let details = document.createElement("p")
+        details.setAttribute("class", "hp")
+        details.innerText = ele.details
+        let shop = document.createElement("button")
+        shop.setAttribute("id", "but1")
+        shop.setAttribute("class", "hp")
+        shop.innerText = "Shop Now"
+        shop.addEventListener("click", function () {
+            shopNow()
+        })
+        let store = document.querySelector("#kimayerecommends")
+        div.append(image, name, details, shop)
+        store.append(div)
+    });
+
+
+
+    var counter = 1;
+
+    setInterval(function () {
+
+
+        document.getElementById(`radio${+counter}`).click()
+        counter++;
+        document.getElementById ? ('radio' + counter).checked = true :
+            counter = counter + 1;
+
+        if (counter > 4) {
+            counter = 1
+        }
+    }, 4000)
+
+    let id = 1;
+    let i = 1
+    let images = ["./img/01.png", "./img/02.PNG", "./img/03.png", "./img/04.png", "./img/05.png"]
+    console.log(images[0])
+    let slide = document.getElementById("photos")
+    let im = document.createElement("img")
+    im.src = images[0]
+    slide.append(im)
+    id = setInterval(function () {
+        if (i == images.length) {
+            i = 0
+        }
+        im.src = images[i]
+        i++
+
+    }, 2000)
+    let x = 1
+    id1 = 1
+    let hori = ["./img/06.png", "./img/07.png", "./img/08.png", "./img/09.png"]
+    let jazzs = document.getElementById("jazzs")
+    let put = document.createElement("img")
+    put.src = hori[0]
+    jazzs.append(put)
+    id1 = setInterval(function () {
+        if (x == hori.length) {
+            x = 0
+        }
+        put.src = hori[x]
+        x++
+    }, 2000);
+
+    let insta = [{ url: "https://scontent.cdninstagram.com/v/t51.2885-15/294545929_764702898290596_4922276163820987111_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=LCG8C87Xnc4AX9QktP0&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9ChZSpQ95vbjMfcWf2grtjZxiIAhhwT0WFgOUc9EXQAw&oe=62DE8094" },
+    { url: "https://scontent.cdninstagram.com/v/t51.29350-15/294054995_561718019076607_8730954817962913303_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=Y7agx3LiyHAAX_rCmq1&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8ikpV0yYqjo2wSgrq8Lwf5OVjg_mjg0fHLAtQ4fwZN5Q&oe=62DE7247" },
+    { url: "https://scontent.cdninstagram.com/v/t51.29350-15/294361576_746289910024859_750855840152039447_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=TKqzPBDvaDgAX8In76f&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8VQ9x3TSsgTjYGBj6mXCmEkeMwuGeEHToFlUg1u68rzw&oe=62DEE676" },
+    { url: "https://scontent.cdninstagram.com/v/t51.29350-15/294354624_584747949713690_7081314398644281486_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=B_YPORzbr1QAX-iBpw2&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_BsUZEW_Z4WRSlVKDvLEo6S1R6LzMyaLskC8SToWUxDA&oe=62DEC5CC" }
+    ]
+    insta.forEach(ele => {
+        let app = document.createElement("div")
+        app.setAttribute("id", "app")
+        let div2 = document.createElement("div")
+        div2.setAttribute('id', "div2")
+
+        let logo = document.createElement("img")
+        logo.src = "https://img.icons8.com/windows/2x/instagram-new.png"
+        logo.setAttribute("class", "logo")
+        div2.append(logo)
+        let avtar = document.createElement("img")
+        avtar.setAttribute("class", "grid")
+        avtar.src = ele.url
+        app.append(avtar, div2)
+        document.querySelector("#fourgrid").append(app)
+    })
+
+
+
+</script>

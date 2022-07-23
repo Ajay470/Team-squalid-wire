@@ -16,12 +16,12 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.logo {
+/* .logo{ */
     /* float: right; */
-}
+/* } */
 
 .logo h2 {
     color: #fff;
@@ -41,7 +41,7 @@ body {
 .right-menu {
     position: relative;
     display: inline-block;
-    float: left;
+    float:left;
     margin-right: 40px
 }
 
