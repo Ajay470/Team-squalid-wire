@@ -1,0 +1,125 @@
+/* *{
+    background-color: #F0F0EB;
+} */
+
+#All{
+    width: 100%;
+    margin-top: 120px;
+}
+
+#menu{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#menu>a{
+    text-decoration: none;
+    color: #000000CC;
+}
+
+#home{
+    width: 86%;
+    height: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+#home>div{
+    width: 10.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home>div>a{
+    width: 60px;
+    height: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+#home>div>a>img{
+    width: 14px;
+    height: 14px;
+}
+#home>div>p{
+    color: gray;
+}
+
+#container{
+    width: 86%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-template-rows: auto;
+    justify-content: space-between;
+
+}
+
+.fruits{
+    height: 410px;
+    margin-bottom: 60px;
+}
+.fruits>.imgdiv:hover{
+    width: 108%;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+.imgdiv{
+    width: 100%;
+    border-radius: 30px;
+}
+.imgdiv>img{
+    width: 100%;
+    border-radius: 30px;
+}
+.namediv{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    height: 170px;
+    text-align: center;
+}
+.namediv>a{
+    text-decoration: none;
+    color: #252222;
+    font-size: 21px;
+}
+.namediv>h2{
+    color: #CD171F;
+}
+
+.add{
+    display: flex;
+    display: none;
+    width: 100%;
+    border: 0px;
+    border-radius: 0px 0px 30px 30px;
+    height: 50px;
+    margin-top: -50px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 50px;
+    background-color: #437111;
+    position: relative;
+}
+.fruits:hover>.imgdiv>.add{
+    display: flex;
+}
+.add>img{
+    width: 30px;
+    background-color: #437111;
+}
+.add>p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #437111;
+}
+

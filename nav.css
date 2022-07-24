@@ -1,0 +1,204 @@
+* {
+    /* text-align: center; */
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    height: 100%;
+    /* background-color: #F0F0EB;
+    height: 100vh; */
+}
+
+.wrapper {
+    /* width: 1000px; */
+    padding: 5px 25px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    /* float: right; */
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+.menu-button {
+    background-color: transparent;
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    /* border: 1px solid #fff; */
+    border: none;
+
+}
+
+.right-menu {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 40px
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-height: 158px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-menu a {
+    width: 150px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-menu a:hover {
+    /* background-color: #000; */
+    margin-left: 10px;
+    color: green;
+
+}
+
+.right-menu:hover {
+    display: block;
+}
+
+.right-menu:hover .dropdown-menu {
+    display: block;
+    /* background-color: transparent; */
+}
+
+.right-menu:hover .menu-button {
+    /* display: block; */
+    background-color: transparent;
+}
+
+
+
+/* /////////////////////////////////////////////////////////// */
+
+header .search-icon {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 20px;
+    color: rgb(49, 48, 46);
+}
+
+i {
+    cursor: pointer;
+}
+
+label {
+    font-size: 25px;
+    width: 100%;
+}
+
+/* /////////////////// */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* ////////////////// */
+input {
+    outline: none;
+    color: black;
+}
+
+#show-menu:checked~.menu-icon i::before {
+    content: '\f00d';
+}
+
+#show-menu:checked~.hidden {
+    visibility: visible;
+}
+
+header .hidden {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    left: -200px;
+
+    height: 35px;
+    padding: 1px;
+    background: rgb(29, 28, 28);
+    min-width: 18%;
+    border-radius: 1px;
+    border: 1px solid rgba(155, 155, 155, .2);
+    visibility: hidden;
+
+}
+#loginfun887575:hover{
+    background-color: #303336;
+    color: white;
+}
+
+
+#button {
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 15px;
+    background-color: rgb(7, 179, 7);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search {
+    /* width: 50px; */
+    height: 100%;
+    padding: 0 10px;
+    color: rgb(19, 17, 17);
+    font-size: 17px;
+    border: none;
+    /* background: none; */
+}
+
+.hidden::before {
+    position: absolute;
+    content: "";
+    top: -11;
+    left: 8px;
+    width: 0;
+    height: 0;
+    z-index: 0;
+    /* border: 10px solid transparent; */
+    border-bottom-color: #1e232b;
+    margin: -20px 0 0;
+}
+
+.hidden ::after {
+    position: absolute;
+    content: "";
+    height: 60px;
+    padding: 2px;
+    /* background:#1e232b ; */
+    border-radius: 2px;
+    min-width: calc(100% +20px);
+    z-index: -2;
+    /* top: 10px;
+left: 0%;
+right: 10px; */
+    transform: translate(-50% -50%);
+
+}

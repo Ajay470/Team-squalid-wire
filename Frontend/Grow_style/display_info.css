@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456);
+    background-repeat: no-repeat;
+  
+    
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+   
+    height: 100%;
+    
+    
+}
+#banner{
+    width: 100%;
+}
+#banner>img{
+    width: 100%;
+}
+#bread{
+    
+    height: 110px;
+    width: 100%;
+    margin-top: 85px;
+    background-color: #437111;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom:20px;
+    padding-top: 5px;
+    align-items: center;
+    z-index: 1;
+}
+#bread>div{
+    margin: auto;
+    margin-top: 7px;
+    height: 33%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+}
+#bread a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    text-rendering: optimizeSpeed;
+}
+#home_icon{
+    height: 40%;
+    margin-right: 10px;
+    background-color: transparent;
+}
+#others{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+#search_related{
+ width: 20%;
+ height: 90vh;
+ /* border: 1px solid green; */
+ /* background-color: #137115; */
+ position: sticky;
+ top: 65px;
+}
+#info{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+    padding: 50px 0px 0px 0px;
+}
+
+.bekar{
+    width: 60%;
+    text-align: left;
+    color: gray;
+    margin: 10px 0px 50px 0px;
+}
+
+#search_related>h2{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#search_related>input{
+    height: 40px;
+    width: 55%;
+    font-size: large;
+    text-align: center;
+    border: 0px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px 0px;
+}
+#search_related>button{
+    height: 43px;
+    width: 25%;
+    background-color: #98cb4c;
+    color: #fff;
+    border: 0px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px 0px;
+}
+#search_related>button:hover{
+    background-color: #81bb2a;
+}
+.related{
+    display: flex;
+    height: 100px;
+    margin: 30px 0px 30px 0px;
+}
+.related>div{
+    height: 100%;
+    margin-right: 10px;
+}
+.related>div>img{
+    height: 80%;
+}
+
+#display_info>hr{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#display_info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+   /* #display_info>h1{
+    margin-bottom: 40px;
+   }  */
+#display_info>img{
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+#display_info>p{
+    margin: 50px 0px 50px 0px;
+}
+#kimaye>span{
+    color: #98cb4c;
+}
+#kimaye{
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: 600;
+}

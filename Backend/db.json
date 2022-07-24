@@ -1,0 +1,633 @@
+{
+  "Fruit": [
+    {
+      "id": "1",
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Custard-Apple-A.progressive.jpg?v=1632485463",
+      "name": "Kimaye Custard Apple (Pack of 500 gm & 1 kg)",
+      "price": 135,
+      "weigth": "Pack of 500 gm and 1 kg",
+      "description": "Custard apples are juicy, creamy, sweet, and fragrant with a tropical aroma and hints of vanilla. They are medium to large in size and oblate or heart-shaped. The skin is thin, tough, and knobbly with dark green flesh when young, and lightens to a pea-green when ripe. The cream-colored flesh is soft and custard-like and encased in flesh, are up to twelve hard, brown or black inedible seeds.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Custard Apple straight from the farms of Maharashtra,India. Each Custard Apple is naturally ripened ."
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/reddragonfruit_18fa2ad7-5134-4318-917b-7fff3a835875.progressive.jpg?v=1644990909",
+      "name": "Kimaye Dragon Fruit (Red) (1 pc)",
+      "price": 135,
+      "weigth": " 1 pc ≈ 0.42 kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": " South Africa, New Zealand",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image.progressive.jpg?v=1620889338",
+      "name": "Kimaye Jamun (250 gm)",
+      "price": 182,
+      "weigth": "250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Maharashtra, India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Langra--cover_540x.jpg?v=1624445187",
+      "name": "Kimaye Langra Mangoes (Pack of 1,2 and 4 kg)",
+      "price": 195,
+      "weigth": "1kg, 2kg & 4kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": " India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 5,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Indian-Plum.progressive.jpg?v=1627642547",
+      "name": "Kimaye Indian Plum (250 g)",
+      "price": 81,
+      "weigth": " 250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mishri-cherry_540x.jpg?v=1625034145",
+      "name": "Kimaye Cherries (Mishri) (250g)",
+      "price": 145,
+      "weigth": "250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Date_d427b5d6-08d3-4f16-8220-a7d3409bbaed.progressive.jpg?v=1624886493",
+      "name": "Kimaye Fresh Dates (Pack of 250g & 500g)",
+      "price": 48,
+      "weigth": "250g & 500g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 8,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/5e8b2ee6-ce8e-42e9-959f-d43c544f586a_540x.png?v=1616326949",
+      "name": "Kimaye Blueberries (125g)",
+      "price": 439,
+      "weigth": "125g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "USA, Chile, Europe",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 9,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Avocado_360x.jpg?v=1652191066",
+      "name": "Kimaye Avocado (Imported) (1 pc )",
+      "price": 199,
+      "weigth": "1 pc~ 250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Peru",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 10,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/HoneydewMeloncover_360x.jpg?v=1654761963",
+      "name": "Kimaye Honeydew Melon (1 pc)",
+      "price": 95,
+      "weigth": "1 pc~ (1kg)",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Middle East",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 11,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry--_-blueberry.progressive.jpg?v=1654851019",
+      "name": "Mishri Cherry- Blueberry Combo",
+      "price": 498,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 12,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/donut-peach-cover_283a2dee-ca84-496b-b3da-930c2fc61e72_540x.jpg?v=1647001648",
+      "name": "Kimaye Peach (250g )",
+      "price": 89,
+      "weigth": "250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 13,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Muskmelon-cover_540x.jpg?v=1633763200",
+      "name": "Kimaye Muskmelon (1 pc)",
+      "price": 69,
+      "weigth": "1 pc~ (.7kg-1kg)",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Maharashtra, India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 14,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2021-7-816.17.47.199.progressive.jpg?v=1625741433",
+      "name": "Kimaye Chausa Mangoes (Pack of 1kg, 2kg & 4kg)",
+      "price": 225,
+      "weigth": "1kg, 2kg & 4kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 16,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Papaya-cover.progressive.jpg?v=1638875170",
+      "name": "Kimaye Papaya (1 pc )",
+      "price": 59,
+      "weigth": " 1 pc ≈ 0.9kg ~ 1.2kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Kimaye Papaya (1 pc )",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 15,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover_19473cce-96ae-4149-aaa1-508f17ac6c28.progressive.jpg?v=1648186636",
+      "name": "Kimaye Watermelon (1 pc)",
+      "price": 65,
+      "weigth": "1 pc~ (2 kg)",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Maharashtra, India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 17,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover.progressive.jpg?v=1647932788",
+      "name": "Kimaye Green Apples (Pack of 3 pc & 6 pc)",
+      "price": 189,
+      "weigth": "500g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "USA, New Zealand",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 18,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mini-Oranges-cover_bbce1a6a-4ab6-4a62-8928-3a956ed7b8cf.progressive.jpg?v=1649913612",
+      "name": "Kimaye Mini Oranges (4-6 pcs) -",
+      "price": 125,
+      "weigth": " 6pcs ≈ 0.38 -0.42 kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "South Africa",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 19,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/a0cfceb5-76a4-4994-9d37-978c6dc3b309.png?v=1611811512",
+      "name": "Kimaye Imported Oranges (Pack of 3 & 6)",
+      "price": 150,
+      "weigth": "(Pack of 3)~ 0.6kg | (Pack of 6)~ 1.2kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Egypt",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 20,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/royal-gala-apple-cover_360x.jpg?v=1643012816",
+      "name": "Kimaye Royal Gala Apples (Pack of 3 & 6)",
+      "price": 168,
+      "weigth": "Pack of 6~(0.960-1.05kg) ",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Turkey, USA, New Zealand",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 21,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/grapefruit-cover_360x.jpg?v=1639461484",
+      "name": "Kimaye Grapefruit (Pack of 2 & 4 pcs)",
+      "price": 148,
+      "weigth": "(Pack of 2)~ 0.5kg | (Pack of 4)~ 1.0kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": " South Africa, Spain, China",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 22,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/dragon-fruit--white-cover.progressive.jpg?v=1632470660",
+      "name": "Kimaye Dragon Fruit (1 pc)",
+      "price": 135,
+      "weigth": "1 pc ≈ 0.40 ~0.45 kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Thailand",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 23,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover-sun-melon_360x.jpg?v=1620314805",
+      "name": "Kimaye Sun Melon (1 pc)",
+      "price": 72,
+      "weigth": "1 pc~ 0.7kg~1kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Maharashtra, India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 24,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/washington-applecover_540x.jpg?v=1641449752",
+      "name": "Kimaye Washington Apples (Pack of 2 pc & 4 pc)",
+      "price": 148,
+      "weigth": "Pack of 3~(0.3-0.4kg); Pack of 6~(0.7-0.8kg) ",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "USA, New Zealand",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 25,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/47dfb7d1-d8d3-4c96-bda9-7dc85dfdec51_119283b1-bac0-4798-8af7-e4259a3a4b22.progressive.jpg?v=1633861455",
+      "name": "Arils Festive Pack (Pack of 5 cups)",
+      "price": 85,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 26,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/golden-kiwi-cover.progressive.jpg?v=1625147312",
+      "name": "Kimaye Golden Kiwis (3 pcs)",
+      "price": 182,
+      "weigth": "3 pcs ≈ 0.24 kg - 0.3 kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": " New Zealand",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 27,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/bd07b8e7-3643-4a98-996e-c85fd7d133a8.png?v=1614765886",
+      "name": "Red Globe Imported (400g)",
+      "price": 245,
+      "weigth": "400g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 28,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofGuava_Main_Clean_360x.png?v=1606828311",
+      "name": "Kimaye Thai Guava (1pc-2pc - 0.5 kg)",
+      "price": 69,
+      "weigth": "500g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Maharashtra, India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 29,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/1_3311b3de-1a38-4175-8e8c-ac9577ec85df-min.progressive.jpg?v=1614324760",
+      "name": "Kimaye Bananas Robusta (5-6 pcs)",
+      "price": 42,
+      "weigth": "5-6 pcs",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 30,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/221f2788-1a08-45ae-bdaf-7432d7ea0156.png?v=1614326590",
+      "name": "Kimaye Pomegranates (Pack of 2 & 4)",
+      "price": 155,
+      "weigth": "(Pack of 2)~ 0.5kg ; (Pack of 4)~ 0.9kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 31,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/1_6875ada8-f1e6-4589-b1fd-6f13a86b8ddb-min.progressive.jpg?v=1614326164",
+      "name": "Kimaye Kiwis (3 pcs ≈ 300 g)",
+      "price": 159,
+      "weigth": " 3 pcs ≈ 0.3 kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": " New Zealand",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 32,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Pear-Beauty.progressive.jpg?v=1626686136",
+      "name": "Kimaye Pear Beauty (Pack of 2 & 4)",
+      "price": 91,
+      "weigth": " (Pack of 2)~0.32 kg to 0.36 kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "South Africa",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 33,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/62cef687-de59-4f5a-acf3-4df1238c3e29-min_360x.png?v=1614324446",
+      "name": "Kimaye Arils-Coco Cup (125g)",
+      "price": 55,
+      "weigth": "125g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 34,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofMosambi_Main_FixedShadows-min_360x.png?v=1614327057",
+      "name": "Kimaye Mosambi (Pack of 3 & 6)",
+      "price": 75,
+      "weigth": "500g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": " Maharashtra, India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 35,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Yelakki-banana-cover_bc79dea2-08f8-404b-99f5-327a91213fbb.progressive.jpg?v=1627026370",
+      "name": "Kimaye Bananas Yelakki (Pack of 250g, 500g & 1kg )",
+      "price": 50,
+      "weigth": "250g, 500g & 1 kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 36,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/47dfb7d1-d8d3-4c96-bda9-7dc85dfdec51.png?v=1613364164",
+      "name": "Pomegranate Seeds (Arils Cup)125g",
+      "price": 55,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 37,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/24d0f9c9-fe83-40a3-84ab-300e73e4ff8d.png?v=1611811511",
+      "name": "Coconut Chunks Cup (100g)",
+      "price": 51,
+      "weigth": "100g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 38,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/0fce7fd6-f30e-45df-8c52-234acbd62023.png?v=1611811509",
+      "name": "Grated Coconut Punnet",
+      "price": 51,
+      "weigth": "100g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 39,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Picture3_3cf8f5aa-4155-4a94-9768-9819bb41835f.progressive.jpg?v=1641381097",
+      "name": "Kimaye Plum (500 g)",
+      "price": 255,
+      "weigth": "400 gm to 450 gm",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "Spain",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 40,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Wholesome-combo.progressive.jpg?v=1618497683",
+      "name": "Kimaye Wholesome Combo",
+      "price": 733,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 41,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/KiwiBlueberry.png?v=1617983685",
+      "name": "Kimaye Kiwi-Blueberries Combo",
+      "price": 536,
+      "weigth": "Blueberries (125g)",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 42,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cherry-imported.progressive.jpg?v=1626511016",
+      "name": "Kimaye Cherries (USA Northwest)(Pack of 125gm)",
+      "price": 349,
+      "weigth": "125g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "USA",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    }
+  ],
+  
+  "Fresh": [
+    {
+      "id": 43,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/221f2788-1a08-45ae-bdaf-7432d7ea0156.png?v=1614326590",
+      "name": "Pomegranate Seeds (Arils Cup)125g",
+      "price": 155,
+      "weigth": "(Pack of 2)~ 0.5kg ; (Pack of 4)~ 0.9kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 44,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/24d0f9c9-fe83-40a3-84ab-300e73e4ff8d.png?v=1611811511",
+      "name": "Coconut Chunks Cup (100g)",
+      "price": 51,
+      "weigth": "100g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 45,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/0fce7fd6-f30e-45df-8c52-234acbd62023.png?v=1611811509",
+      "name": "Grated Coconut Punnet",
+      "price": 51,
+      "weigth": "100g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 46,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/47dfb7d1-d8d3-4c96-bda9-7dc85dfdec51.png?v=1613364164",
+      "name": "Kimaye Arils-Coco Cup (125g)",
+      "price": 55,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 47,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/221f2788-1a08-45ae-bdaf-7432d7ea0156.png?v=1614326590",
+      "name": "Arils Festive Pack (Pack of 5 cups)",
+      "price": 260,
+      "weigth": "(Pack of 2)~ 0.5kg ; (Pack of 4)~ 0.9kg",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    }
+  ],
+
+  "Combo": [
+    {
+      "id": 48,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mishri-cherry_540x.jpg?v=1625034145",
+      "name": "Mishri Cherry- Blueberry Combo",
+      "price": 498,
+      "weigth": "250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 49,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Indian-Plum.progressive.jpg?v=1627642547",
+      "name": "Kimaye Plum-Peach Combo",
+      "price": 153,
+      "weigth": " 250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 50,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Plum_BB_360x.jpg?v=1621068661",
+      "name": "Kimaye Plum-Blueberries Combo",
+      "price": 438,
+      "weigth": " 250g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 51,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Wholesome-combo.progressive.jpg?v=1618497683",
+      "name": "Kimaye Wholesome Combo",
+      "price": 733,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 52,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/KiwiBlueberry_360x.png?v=1617983685",
+      "name": "Kimaye Kiwi-Blueberries Combo",
+      "price": 536,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    }
+  ],
+
+  "Gift": [
+    {
+      "id": 53,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7790_360x.jpg?v=1631346990",
+      "name": "Fruit Box by Kimaye (Strength)",
+      "price": 1800,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 54,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7807_360x.jpg?v=1631347621",
+      "name": "Fruit Box by Kimaye (Adore)",
+      "price": 2100,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    },
+    {
+      "id": 54,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7821_360x.jpg?v=1631350656",
+      "name": "Fruit Box by Kimaye (Cherish)",
+      "price": 1600,
+      "weigth": "",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    }
+  ],
+
+  "Graps": [
+    {
+      "id": 55,
+      "image": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/bd07b8e7-3643-4a98-996e-c85fd7d133a8.png?v=1614765886",
+      "name": "Red Globe Imported (400g)",
+      "price": 245,
+      "weigth": "400g",
+      "description": "Red Dragon Fruit is a sweet fruit with pink to magenta-colored skin . It has appearance of succulent, fleshy scales overlapping and green-tipped protrusions along its length. The bright magenta flesh of the Red Dragon fruit is the result of a compound called betacyanin, which is the same pigment present in beets and prickly pear fruit. The pulp has the texture of a kiwi fruit, with small, black edible seeds throughout.",
+      "origin": "India",
+      "promise": "KIMAYE PROMISE",
+      "PromiseDescription": "Bringing you Kimaye Dragon Fruit straight from the farms of Maharashtra, India. Each Dragon Fruit is traceable to it's farmer and source."
+    }
+  ]
+
+}
