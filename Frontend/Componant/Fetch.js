@@ -7,7 +7,7 @@ let getData = async (url) => {
 
 
 let append = (data,container,count,countDiv,cartArr,displayArr) => {
-    
+    container.innerHTML = ""
     // let countDiv = document.querySelector("#count");
     let countdata = document.createElement("p");
     // let count = 0;

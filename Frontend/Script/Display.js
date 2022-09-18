@@ -48,7 +48,7 @@ let append = (data) => {
 append(displayArr)
 
 let getData = async () => {
-    let url = "http://127.0.0.1:3500/api/Gift"; 
+    let url = "https://mysterious-meadow-78650.herokuapp.com/apiGift"; 
     let res = await fetch(url);
     let data = await res.json();
     console.log(data)
