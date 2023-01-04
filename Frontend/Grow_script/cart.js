@@ -5,7 +5,8 @@ console.log("found:",data)
 let sum=0;
 for(let i=0; i<data.length; i++){
     
-  sum += +data[i].price
+  sum += ( data[i].quantity ) ? (+data[i].price)*(+data[i].quantity) : data[i].price ;  
+
 
     let tr = document.createElement("tr")
 
@@ -38,12 +39,26 @@ for(let i=0; i<data.length; i++){
     
     let td5 = document.createElement("td")
     let input=document.createElement("input")
+    input.value = 1
+    input.style = "text-align : center"
+    input.addEventListener("change",  (e)=>{
+      console.log(e.target.value)
+      data.forEach((e,k)=>{
+        if(i===k){
+          e.quantity = e.target.value
+        }
+        // return e
+      })
+        localStorage.setItem("cartData",JSON.stringify(data))
+        location.reload();
+    })
+
     input.type="number"
     td5.append(input)
     
     
     let td6 = document.createElement("td")
-    td6.textContent=`₹${data[i].price}`
+    td6.textContent=`₹${(data[i].price)}`
     
     tr.append(td1,td2,td3,td4,td5,td6)
     document.querySelector("#cart_data>table>tbody").append(tr)

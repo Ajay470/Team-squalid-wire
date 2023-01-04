@@ -5,6 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >CART</title>
+    <style>
+        #payment{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        #payment>input{
+            padding: 20px;
+            width: 80%;
+        }
+        #but{
+            padding: 20px;
+            background-color: #437111;
+            color: aliceblue;
+            font-size: larger;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
     
     <link rel = "icon" href = 
     "//cdn.shopify.com/s/files/1/0449/5225/6667/files/fav_12dcb22d-f3e3-4662-886b-1dae4e60e297_152x.png?v=1598337573" 
@@ -16,7 +38,6 @@
 </head>
 <body>
     <div id="navbar887575">
-       
 
     </div>
 
@@ -66,7 +87,7 @@
                     <tbody></tbody>
                 </table>
                </div>
-               <div id="details">
+               <!-- <div id="details">
                   <div>
                     <label for="">Pick a Delivery date:</label>
                     <input type="date" class="pin">
@@ -79,11 +100,19 @@
                         <option value="Select A Time">04:00PM-08:00PM</option>
                     </select>
                     <h3>YOUR CURRENT DELIVERY LOCATION IS MUMBAI</h3>
-                  </div>
+                  </div> -->
                   <div id="order_info">
-                    <div>  
-                        <h1>SPECIAL INSTRUCTIONS</h1>
-                        <textarea name="" id="" cols="50%" rows="10"></textarea>
+                    <div id="payment">  
+                        <input type="text" name="" id="fname" placeholder="Enter your name">
+                        <input type="number" name="" id="sname" placeholder="Enter your Card Number">
+                        <input type="text" name="" id="cvv" placeholder="Enter your cvv">
+                        <input type="date" name="" id="date" placeholder="Enter your Expiry Date">
+                        <input type="text" name="" id="mob" placeholder="Enter Name as per Your card">
+                        <input type="text" name="" id="mob" placeholder="Enter your mobile number">
+                        <input type="text" name="" id="add" placeholder="Enter your Address">
+                        <!-- <button id="but">Submit</button> -->
+                        <!-- <h1>SPECIAL INSTRUCTIONS</h1> -->
+                        <!-- <textarea name="" id="" cols="70%" rows="10"></textarea> -->
                     </div>
                     <div>
                         <h1>CART TOTAL</h1>
@@ -92,7 +121,7 @@
                            <div><h1>Total :</h1><span id="total"></span></div>
                         </div>
                         
-                       <a href="invoice.html"> <button>PROCEED TO CHECKOUT</button></a>
+                       <a > <button id="done">MAKE A PAYMENT</button></a>
                        <a href="../index.html"> <button>CONTINUE SHOPPING</button></a>
                     </div>
                   </div>
@@ -105,6 +134,7 @@
     </footer>
 </body>
 <script src="./Grow_script/cart.js"></script>
-<script src="../Frontend/navexport.js"></script>
-<script src="../Frontend/nav.js" ></script>
+<script src="./navexport.js"></script>
+<!-- <script src="./nav.js" ></script> -->
+<script src="../Frontend/Grow_script/invoice.js" ></script>
 </html>

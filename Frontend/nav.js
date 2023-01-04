@@ -92,9 +92,10 @@ function regfun(){
    last:document.getElementById("LastNamereg").value,
    email:document.getElementById("reg_emailreg").value,
    password:document.getElementById("reg_passwordreg").value,
-    }
+    }     
     data.push(obj);
     localStorage.setItem("project-2userdata",JSON.stringify(data));
+    alert("registered")
     window.location.href="#";                       
 }
 
@@ -108,7 +109,7 @@ function loginfun(){
         flag++;
         localStorage.setItem("project-2logindata",JSON.stringify(el));
         alert("succ")
-        window.location.href="./profile.html"; 
+        window.location.href="../Frontend/profile.html"; 
       }
 
    })
